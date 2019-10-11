@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		2E302DDE234F079F0011F763 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E302DDD234F079F0011F763 /* AppDelegate.swift */; };
 		2E302DE0234F079F0011F763 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E302DDF234F079F0011F763 /* SceneDelegate.swift */; };
-		2E302DE2234F079F0011F763 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E302DE1234F079F0011F763 /* ViewController.swift */; };
 		2E302DE5234F079F0011F763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E302DE3234F079F0011F763 /* Main.storyboard */; };
 		2E302DE7234F07A10011F763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E302DE6234F07A10011F763 /* Assets.xcassets */; };
 		2E302DEA234F07A10011F763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E302DE8234F07A10011F763 /* LaunchScreen.storyboard */; };
+		2E302DF4234F17000011F763 /* RatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E302DF3234F17000011F763 /* RatesTableViewController.swift */; };
+		2E302DF6234F1C050011F763 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E302DF5234F1C040011F763 /* ApiClient.swift */; };
+		2E302DF8234F1DE90011F763 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E302DF7234F1DE90011F763 /* Constants.swift */; };
+		2E302DFC234F251A0011F763 /* RateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E302DFA234F251A0011F763 /* RateTableViewCell.swift */; };
+		2E302DFD234F251A0011F763 /* RateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E302DFB234F251A0011F763 /* RateTableViewCell.xib */; };
+		2E302E00234F30F00011F763 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E302DFF234F30F00011F763 /* Extensions.swift */; };
+		2E302E02234F34310011F763 /* FirstCurrencyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E302E01234F34310011F763 /* FirstCurrencyTableViewController.swift */; };
+		2E302E04234F34450011F763 /* SecondCurrencyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E302E03234F34450011F763 /* SecondCurrencyTableViewController.swift */; };
+		2E302E07234F3BE20011F763 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E302E06234F3BE20011F763 /* Currency.swift */; };
+		2E302E09234F413F0011F763 /* Currencies.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2E302E08234F413F0011F763 /* Currencies.txt */; };
+		2E302E0B234F48E60011F763 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E302E0A234F48E60011F763 /* FileManager.swift */; };
+		2E302E0D234F88380011F763 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E302E0C234F88380011F763 /* ExchangeRate.swift */; };
+		2E302E12234F904E0011F763 /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E302E10234F904E0011F763 /* CurrencyTableViewCell.swift */; };
+		2E302E13234F904E0011F763 /* CurrencyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E302E11234F904E0011F763 /* CurrencyTableViewCell.xib */; };
+		2E302E15234FA2FC0011F763 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E302E14234FA2FC0011F763 /* UserDefaultsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E302DDA234F079F0011F763 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E302DDD234F079F0011F763 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E302DDF234F079F0011F763 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2E302DE1234F079F0011F763 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2E302DE4234F079F0011F763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E302DE6234F07A10011F763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E302DE9234F07A10011F763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E302DEB234F07A10011F763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E302DF3234F17000011F763 /* RatesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesTableViewController.swift; sourceTree = "<group>"; };
+		2E302DF5234F1C040011F763 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		2E302DF7234F1DE90011F763 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2E302DFA234F251A0011F763 /* RateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateTableViewCell.swift; sourceTree = "<group>"; };
+		2E302DFB234F251A0011F763 /* RateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RateTableViewCell.xib; sourceTree = "<group>"; };
+		2E302DFF234F30F00011F763 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2E302E01234F34310011F763 /* FirstCurrencyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCurrencyTableViewController.swift; sourceTree = "<group>"; };
+		2E302E03234F34450011F763 /* SecondCurrencyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCurrencyTableViewController.swift; sourceTree = "<group>"; };
+		2E302E06234F3BE20011F763 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		2E302E08234F413F0011F763 /* Currencies.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Currencies.txt; sourceTree = "<group>"; };
+		2E302E0A234F48E60011F763 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		2E302E0C234F88380011F763 /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
+		2E302E10234F904E0011F763 /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		2E302E11234F904E0011F763 /* CurrencyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyTableViewCell.xib; sourceTree = "<group>"; };
+		2E302E14234FA2FC0011F763 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +86,75 @@
 			children = (
 				2E302DDD234F079F0011F763 /* AppDelegate.swift */,
 				2E302DDF234F079F0011F763 /* SceneDelegate.swift */,
-				2E302DE1234F079F0011F763 /* ViewController.swift */,
-				2E302DE3234F079F0011F763 /* Main.storyboard */,
+				2E302E05234F3BBF0011F763 /* Models */,
+				2E302DF2234F07B80011F763 /* Services */,
+				2E302DFE234F30C80011F763 /* Utils */,
+				2E302DF1234F07AE0011F763 /* Controllers */,
+				2E302DF9234F1E390011F763 /* Views */,
+				2EBDCF5423509B450043E242 /* Storyboards */,
+				2E302E08234F413F0011F763 /* Currencies.txt */,
 				2E302DE6234F07A10011F763 /* Assets.xcassets */,
-				2E302DE8234F07A10011F763 /* LaunchScreen.storyboard */,
 				2E302DEB234F07A10011F763 /* Info.plist */,
 			);
 			path = TestProject;
+			sourceTree = "<group>";
+		};
+		2E302DF1234F07AE0011F763 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E302DF3234F17000011F763 /* RatesTableViewController.swift */,
+				2E302E01234F34310011F763 /* FirstCurrencyTableViewController.swift */,
+				2E302E03234F34450011F763 /* SecondCurrencyTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2E302DF2234F07B80011F763 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2E302DF5234F1C040011F763 /* ApiClient.swift */,
+				2E302E0A234F48E60011F763 /* FileManager.swift */,
+				2E302E14234FA2FC0011F763 /* UserDefaultsManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2E302DF9234F1E390011F763 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2E302DFA234F251A0011F763 /* RateTableViewCell.swift */,
+				2E302DFB234F251A0011F763 /* RateTableViewCell.xib */,
+				2E302E10234F904E0011F763 /* CurrencyTableViewCell.swift */,
+				2E302E11234F904E0011F763 /* CurrencyTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2E302DFE234F30C80011F763 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2E302DF7234F1DE90011F763 /* Constants.swift */,
+				2E302DFF234F30F00011F763 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2E302E05234F3BBF0011F763 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2E302E06234F3BE20011F763 /* Currency.swift */,
+				2E302E0C234F88380011F763 /* ExchangeRate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2EBDCF5423509B450043E242 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2E302DE3234F079F0011F763 /* Main.storyboard */,
+				2E302DE8234F07A10011F763 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +216,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E302DEA234F07A10011F763 /* LaunchScreen.storyboard in Resources */,
+				2E302DFD234F251A0011F763 /* RateTableViewCell.xib in Resources */,
+				2E302E13234F904E0011F763 /* CurrencyTableViewCell.xib in Resources */,
 				2E302DE7234F07A10011F763 /* Assets.xcassets in Resources */,
 				2E302DE5234F079F0011F763 /* Main.storyboard in Resources */,
+				2E302E09234F413F0011F763 /* Currencies.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +231,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E302DE2234F079F0011F763 /* ViewController.swift in Sources */,
+				2E302DF8234F1DE90011F763 /* Constants.swift in Sources */,
+				2E302DF4234F17000011F763 /* RatesTableViewController.swift in Sources */,
 				2E302DDE234F079F0011F763 /* AppDelegate.swift in Sources */,
+				2E302E04234F34450011F763 /* SecondCurrencyTableViewController.swift in Sources */,
+				2E302E02234F34310011F763 /* FirstCurrencyTableViewController.swift in Sources */,
+				2E302E12234F904E0011F763 /* CurrencyTableViewCell.swift in Sources */,
 				2E302DE0234F079F0011F763 /* SceneDelegate.swift in Sources */,
+				2E302E07234F3BE20011F763 /* Currency.swift in Sources */,
+				2E302E0B234F48E60011F763 /* FileManager.swift in Sources */,
+				2E302DF6234F1C050011F763 /* ApiClient.swift in Sources */,
+				2E302E15234FA2FC0011F763 /* UserDefaultsManager.swift in Sources */,
+				2E302E0D234F88380011F763 /* ExchangeRate.swift in Sources */,
+				2E302DFC234F251A0011F763 /* RateTableViewCell.swift in Sources */,
+				2E302E00234F30F00011F763 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +398,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hasl.TestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +416,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hasl.TestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
